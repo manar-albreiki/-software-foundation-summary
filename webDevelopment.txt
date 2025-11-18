@@ -28,3 +28,13 @@ LINQ (Language Integrated Query) is a feature in C# that allows developers to wr
 Blazor is a .NET framework used to build interactive web interfaces using C# instead of JavaScript. It allows developers to reuse backend skills on the frontend, improving productivity and consistency. Blazor supports both client-side and server-side rendering, making it flexible for different application requirements.
 
 Together, SQL Server, C#, EF Core, LINQ, and Blazor form a strong technology ecosystem that supports full-stack development within the .NET environment, enabling efficient, scalable, and modern web application development.
+
+Make a comparison table between C#, Java and Python in terms of compiling, speed, usage, advantages, latest version
+C#, Java, and Python are three widely used programming languages, and each one works differently in terms of compiling, speed, and usage. C# and Java are both compiled into intermediate bytecode and then executed using a runtime environment—C# uses the Common Language Runtime (CLR), while Java runs on the Java Virtual Machine (JVM). Python, on the other hand, is mostly interpreted at runtime, which makes it easier to write but generally slower in execution compared to the other two.
+
+In terms of speed, C# and Java are usually faster because they are statically typed and optimized during compilation. Python tends to run slower due to dynamic typing and interpreter overhead, but it offers rapid development and flexibility, especially in automation and AI. Each language is used in different environments: C# is popular in Windows applications, enterprise systems, and game development through Unity; Java is widely used in large enterprise software and older Android systems; and Python is preferred in artificial intelligence, machine learning, data analysis, and scripting tasks.
+
+Each language also has unique advantages. C# benefits from powerful development tools and close integration with the Microsoft ecosystem. Java is valued for its platform independence, stability, and long-term reliability in large systems. Python is appreciated for its simple syntax, fast development, and strong libraries for scientific computing and automation.
+
+As of the most recent releases, C# has reached version 14, Java is on version 25, and Python’s latest stable version is Python 3.14. The choice between these languages depends on the project needs—whether performance, cross-platform compatibility, or rapid development is the priority.
+
