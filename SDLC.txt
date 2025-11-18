@@ -1,0 +1,351 @@
+Part A 
+
+ 
+
+Analysis Phase 
+
+Define the main goal of this phase 
+
+The analysis stage of the SDLC is where development teams translate high-level plans and goals into actionable ideas. To do this, teams perform a technical analysis of the plans they developed in the previous stage and determine how best to implement them. 
+
+  
+
+The goal of the analysis step is to have a technical plan that teams can begin putting into action. Line-by-line detail about how to implement code isn't necessary, but teams should know exactly which tools and processes they'll use as they build the app. 
+
+The 7 stages of the SDLC explained | TechTarget 
+
+Identify at least 3 roles involved 
+
+Product Owner 
+
+The Business Analyst is primarily responsible for gathering, analyzing, and documenting the business requirements from stakeholders. They act as a bridge between the business side and the technical team, ensuring that the final system aligns with business needs and objectives. 
+
+ Business Analyst 
+
+The Project Manager oversees the entire project process, including planning and coordinating the analysis phase. They ensure that the phase stays on schedule, within scope, and meets quality standards. They also facilitate communication between stakeholders and the development team. 
+
+Project Manager 
+
+The Product Owner represents the customer or end-users and defines what features or functionalities should be included in the product. During the analysis phase, they prioritize requirements, clarify user needs, and ensure that the development aligns with the product vision. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+List 2 real tools or techniques used (e.g., JIRA, interviews, requirement 
+workshops). 
+
+ 
+
+JIRA: JIRA is a project management and issue-tracking tool used to document, organize, and manage software requirements. It helps teams track user stories, tasks, and bugs, making collaboration between analysts, developers, and stakeholders more efficient. 
+
+Interviews: Interviews are a requirements-gathering technique where the Business Analyst or Project Manager directly speaks with stakeholders or end-users to collect detailed information about their needs, expectations, and challenges. This helps in understanding the real requirements for the system. 
+
+ 
+
+Explain how missing requirements can affect the entire SDLC. 
+
+Missing requirements can have a serious impact on the entire Software Development Life Cycle (SDLC) because they lead to an incomplete understanding of what the system should do. When important requirements are not identified during the analysis phase, several problems can occur throughout the later stages: 
+
+  
+
+In the design phase: The system design may not meet the real needs of users or the business. Designers might create structures or interfaces that do not support essential features, leading to rework later. 
+
+  
+
+In the development phase: Developers will build the system based on incomplete or incorrect information. As a result, some key functions may be missing, causing delays when those functions are discovered later. 
+
+  
+
+In the testing phase: Testers may not have proper test cases for missing features, resulting in poor system quality or undetected issues. 
+
+  
+
+In the deployment and maintenance phase: The system may fail to satisfy users, leading to complaints, costly modifications, and loss of trust in the project. 
+
+ 
+
+ 
+
+Find one real-world example (from a company or project) that faced analysis-related issues. 
+
+A well-known real-world example of a project that faced analysis-related issues is the Denver International Airport (DIA) automated baggage handling system project. 
+
+When Denver built its new international airport in the 1990s, the goal was to create an advanced automated system to handle baggage efficiently across all terminals. However, the project suffered from major requirements analysis problems. 
+
+During the analysis phase, the project team failed to fully understand and document the complex needs of different airlines and airport operations. As a result, many requirements were missing or unclear, and there was poor communication between stakeholders, engineers, and software developers. 
+
+Because of these missing and misunderstood requirements, the system design was flawed, testing failed repeatedly, and major delays occurred. The project ended up costing over $560 million more than expected and was delayed by 16 months. Eventually, the automated system was abandoned, and a manual baggage handling process was used instead. 
+
+This case shows how poor requirement analysis can lead to cost overruns, schedule delays, and project failure—even in large, well-funded projects. 
+
+Retrieved from https://www.pmi.org/learning/library/denver-international-airport-baggage-system-8337  
+
+Design Phase 
+
+Describe the main outputs (deliverables) of this phase 
+
+In the design phase of the SDLC, the main outputs are: 
+
+System Design Document (SDD): Detailed plan of how the system will work. 
+
+Architectural Design: Structure of system components and their interactions. 
+
+Database Design: ER diagrams and data models. 
+
+User Interface (UI) Design: Layout and navigation of the system. 
+
+UML/DFD Diagrams: Visual representation of processes and data flow. 
+
+Technical Specifications: Hardware, software, and security requirements. 
+
+Prototypes or Mockups: Sample screens or models of the system. 
+
+List 2–3 tools or techniques used for software/system design (e.g., UML, Figma, 
+Lucidchart) 
+
+UML (Unified Modeling Language): Used to create diagrams like class, sequence, and activity diagrams to visualize system structure and behavior. 
+
+Figma: A design tool for creating user interface (UI) layouts and interactive prototypes. 
+
+Lucidchart: A web-based tool for drawing flowcharts, data flow diagrams (DFDs), and system architecture designs. 
+
+Explain the difference between system design and UI/UX design. 
+
+System design and UI/UX design serve different purposes in software development: 
+
+System Design focuses on the technical structure of the system — how components, databases, and processes work together. It deals with system architecture, data flow, and how the backend functions to meet requirements. 
+
+UI/UX Design focuses on the user experience and interface — how the system looks and feels to users. UI (User Interface) covers visual elements like buttons and layouts, while UX (User Experience) ensures the system is easy, efficient, and enjoyable to use. 
+
+Describe one example where poor design decisions increased project cost or 
+failure risk. 
+
+One example is the Healthcare.gov website launched in 2013 by the U.S. government. Poor system design decisions led to major technical failures at launch — the site crashed frequently, pages loaded slowly, and users couldn’t complete registrations. The problems occurred because the system was built without proper integration testing, scalability planning, or clear architectural design. As a result, the project required emergency fixes, additional developers, and millions of dollars in extra costs to repair and stabilize the system. 
+
+Development phase  
+
+Describe what happens in this phase. 
+
+In the development phase of SDLC, the software is built based on design specifications. Developers write code, create databases, and integrate features to make the system functional. Unit testing is done to check components, and documentation is prepared for future use. Tools like IDEs, version control (Git), and build automation are commonly used. 
+
+Identify front-end and back-end responsibilities. 
+
+Aspect 
+
+Front-End Responsibilities 
+
+Back-End Responsibilities 
+
+Definition 
+
+Handles the user interface and user experience 
+
+Handles server, database, and application logic 
+
+Main Focus 
+
+What users see and interact with 
+
+How the system works behind the scenes 
+
+Languages/Tools 
+
+HTML, CSS, JavaScript, React, Angular, Vue 
+
+Python, Java, Node.js, PHP, Ruby, SQL 
+
+Tasks 
+
+Designing layouts, forms, buttons, animations, responsiveness 
+
+Database management, server-side logic, API creation, security 
+
+Goal 
+
+Ensure a smooth and interactive user experience 
+
+Ensure data processing, storage, and system functionality 
+
+ 
+
+List 3 tools or technologies commonly used by developers  
+
+GitHub – for version control and collaboration 
+
+VS Code – a code editor/IDE for writing and managing code 
+
+Spring Boot – a framework for building Java-based backend applications 
+
+ 
+
+ 
+
+Explain why proper version control is essential in this phase 
+
+Proper version control is essential in the development phase because it allows developers to track changes in the code, collaborate safely with team members, and recover previous versions if something goes wrong. It helps prevent code conflicts, ensures that multiple developers can work on the same project simultaneously, and maintains a history of updates for debugging or future enhancements. Tools like Git make this process organized and reliable, reducing errors and saving time. 
+
+Describe a real case of a software project that failed due to poor development 
+practices. 
+
+A notable example is Healthcare.gov in 2013. The website, designed for Americans to enroll in health insurance under the Affordable Care Act, faced major issues at launch. Rushed development, poor testing, weak version control, and poor coordination among multiple contractors led to frequent crashes, long delays, and many features not working. The project required significant redevelopment to fix these problems, illustrating how poor development practices can increase costs, delay timelines, and damage user trust. 
+
+Testing Phase 
+
+Explain the purpose of testing phase in SDLC 
+
+The purpose of the testing phase in SDLC is to ensure that the software system works correctly, meets the specified requirements, and is free of defects before it is deployed to users. During this phase, the software is systematically evaluated to identify and fix bugs, errors, or inconsistencies that could affect functionality, performance, or user experience. 
+
+Testing also helps verify that the system integrates well with other components, complies with quality standards, and performs reliably under different conditions. Essentially, it ensures the software is stable, secure, and ready for deployment, reducing the risk of failures or costly issues after release. 
+
+Identify 3 types of testing  
+
+Unit Testing: This focuses on verifying the functionality of individual components or modules of the software to ensure each part works correctly on its own. 
+
+Integration Testing: This checks how different modules or components work together, ensuring that combined parts of the system interact correctly. 
+
+System Testing: This evaluates the complete software system as a whole to ensure it meets the specified requirements and performs as expected in a real-world environment. 
+
+List 2–3 testing tools. 
+
+Selenium – Used for automated testing of web applications, especially for functional and regression testing. 
+
+JMeter – Used for performance, load, and stress testing of applications. 
+
+Postman – Used for testing APIs to ensure they respond correctly, and handle data as expected. 
+
+Explain how automated testing improves efficiency. 
+
+Automated testing improves efficiency in several ways. First, it allows repetitive and time-consuming test cases to run automatically without manual intervention, saving a lot of time compared to manual testing. Second, automated tests can be executed consistently and repeatedly, which reduces human errors and ensures more reliable results. Third, it enables faster feedback to developers, allowing bugs to be detected and fixed early in the development cycle. 
+
+ 
+
+ 
+
+ 
+
+Find one case study or article showing how testing caught critical bugs before 
+release. 
+
+Title: Implementing Shift‑Left Testing for Early Bug Detection (by the MoldStud Research Team) 
+
+In this article, one of the cases (named “Company X”) describes how the organization introduced testing much earlier in the development cycle (unit‑tests, code review, QA involvement in requirements and design). It reports that by doing so the team was able to catch critical issues before they impacted the project timeline — and achieved about a 30% reduction in post‑release defects and a 15% increase in customer satisfaction. 
+
+ 
+
+Deployment Phase 
+
+Define what deployment means in SDLC 
+
+In the Software Development Life Cycle (SDLC), deployment refers to the process of making a software application available for use in a real or production environment. It is the phase where the developed and tested software is installed, configured, and released so that end users can access it. Deployment ensures that the software functions as intended outside the development environment and is often accompanied by activities like user training, documentation, and support setup. 
+
+Mention 2 deployment models (e.g., manual vs. continuous) 
+
+Manual Deployment: In this model, software is deployed to the production environment through manual steps, such as copying files, configuring servers, and running installation scripts. It is simple but prone to human error and time-consuming. 
+
+Continuous Deployment (Automated Deployment): Here, software changes are automatically deployed to production after passing automated tests and quality checks. This approach enables faster releases, reduces manual errors, and supports agile development practices. 
+
+Identify 3 tools or platforms used in deployment (e.g., Jenkins, AWS, Docker). 
+
+Jenkins – An open-source automation server that facilitates continuous integration and continuous deployment (CI/CD) pipelines. 
+
+Docker – A platform that allows applications to be packaged into containers, ensuring consistency across different environments during deployment. 
+
+AWS (Amazon Web Services) – A cloud platform that provides various services for deploying, hosting, and scaling applications in production. 
+
+Explain how DevOps practices support this phase 
+
+DevOps practices greatly support the deployment phase by bridging the gap between development and operations, ensuring faster, more reliable, and continuous delivery of software. Key ways DevOps helps include: 
+
+Automation: Automates builds and releases to reduce errors. 
+
+CI/CD: Enables fast and reliable updates. 
+
+Infrastructure as Code: Ensures consistent environments. 
+
+Monitoring: Detects and fixes issues quickly. 
+
+ 
+
+Describe a real incident where deployment issues affected users (e.g., app crash or downtime) 
+
+A notable real incident occurred with Facebook in March 2019, when a faulty deployment caused a major global outage. The issue arose during routine maintenance and updates to their server configuration, which inadvertently disrupted network traffic between data centers. As a result, users worldwide were unable to access Facebook, Instagram, and WhatsApp for several hours. This incident highlighted how deployment mistakes, even in large-scale systems, can lead to widespread downtime, user frustration, and reputational damage. 
+
+ 
+
+ 
+
+ 
+
+Maintenance Phase 
+
+Define why this phase never truly ends 
+
+The Maintenance phase in the Software Development Life Cycle (SDLC) never truly ends because software is never static. After deployment, applications continue to require updates, bug fixes, performance improvements, and adaptations to changing user needs, operating environments, or technology standards. Even when all known issues are resolved, new bugs can appear, security vulnerabilities can emerge, and new features may be requested, creating a continuous cycle of maintenance. 
+
+List 3 maintenance activities (e.g., bug fixing, updating libraries, performance 
+tuning). 
+
+Bug fixing: Resolving errors or defects discovered after deployment. 
+
+Updating libraries or dependencies: Ensuring compatibility, security, and functionality improvements. 
+
+Performance tuning: Optimizing the system for speed, efficiency, and scalability. 
+
+Identify 2 tools used for tracking and maintaining systems (e.g., Jira, ServiceNow). 
+
+Jira: Used for tracking bugs, tasks, and project progress in software maintenance. 
+
+ServiceNow: Used for IT service management, incident tracking, and system maintenance workflows. 
+
+Explain how user feedback influences maintenance decisions. 
+
+User feedback plays a critical role in maintenance decisions because it highlights real-world issues, usability problems, and feature requests that may not have been evident during development or testing. By analyzing feedback, developers can prioritize bug fixes, performance improvements, or enhancements that have the most impact on user satisfaction. This ensures the software evolves in a way that meets actual user needs, maintains reliability, and improves the overall user experience. Without feedback, maintenance efforts might focus on low-priority issues, wasting time and resources. 
+
+Describe a case where regular maintenance prevented major system failure 
+
+A notable case is the continuous maintenance of the NASA Mars Rover software. Before each mission phase, engineers regularly updated and tested the rover’s software to address minor bugs, update navigation algorithms, and optimize resource usage. This regular maintenance prevented potential system failures in the harsh Martian environment, such as communication breakdowns or navigation errors. As a result, the rovers operated successfully for years beyond their expected lifespan, avoiding costly mission failures that could have occurred if maintenance had been neglected. 
+
+ 
+
+Part B 
+
+Amazon 
+
+SDLC Phase 
+
+How it was applied in Amazon 
+
+Analysis 
+
+Amazon’s team studied customer shopping behavior, payment preferences, and delivery expectations to define requirements for an efficient e-commerce platform. 
+
+Design 
+
+The UI/UX was designed for easy navigation, personalized recommendations, quick checkout, and mobile responsiveness to meet customer needs. 
+
+Development 
+
+Technologies like Java, Python, and JavaScript were likely used, along with frameworks such as React for frontend and AWS services for backend infrastructure. 
+
+Testing 
+
+Testing involved unit testing, integration testing, and load testing to ensure site reliability, fast performance, and secure transactions. 
+
+Deployment 
+
+Amazon uses continuous deployment practices via cloud-based infrastructure (AWS), allowing frequent updates without downtime. 
+
+Maintenance 
+
+Bugs, feature requests, and customer feedback are managed through monitoring tools, A/B testing, and updates pushed regularly to improve user experience. 
+
+ 
+
+ 
