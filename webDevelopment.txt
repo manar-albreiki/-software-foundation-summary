@@ -7,3 +7,9 @@ Web development can be divided into two main areas: frontend development and bac
 In recent years, different technology stacks have emerged, offering structured ways to build web applications more efficiently. Stacks like MERN, .NET, and Spring Boot combine frontend, backend, and database technologies to streamline development. Each stack has its advantages based on performance, scalability, flexibility, and project requirements.
 
 Web development continues to grow as new tools, frameworks, and standards appear. The increasing demand for responsive design, security, integration with cloud computing, and mobile compatibility makes the field both challenging and exciting. Overall, web development remains essential in shaping digital experiences, connecting users with information, services, and businesses across the world.
+
+The frontend is responsible for everything the user sees and interacts with on a website or application. It focuses on layout, design, buttons, forms, menus, and overall user experience using technologies like HTML, CSS, and JavaScript. Its main goal is to make the application visually appealing, intuitive, and responsive across different devices and screen sizes.
+
+The backend is responsible for processing requests, managing logic, and connecting the frontend to the database. It handles authentication, server operations, application rules, and communication between different system components. Backend technologies ensure the system runs smoothly, securely, and efficiently behind the scenes.
+
+The database is responsible for storing, organizing, and managing all necessary data used by the application, such as user accounts, product details, or system records. It works closely with the backend to retrieve, update, or delete data based on user actions. The database ensures data remains accurate, secure, and accessible whenever needed.
