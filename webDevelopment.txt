@@ -13,3 +13,18 @@ The frontend is responsible for everything the user sees and interacts with on a
 The backend is responsible for processing requests, managing logic, and connecting the frontend to the database. It handles authentication, server operations, application rules, and communication between different system components. Backend technologies ensure the system runs smoothly, securely, and efficiently behind the scenes.
 
 The database is responsible for storing, organizing, and managing all necessary data used by the application, such as user accounts, product details, or system records. It works closely with the backend to retrieve, update, or delete data based on user actions. The database ensures data remains accurate, secure, and accessible whenever needed.
+
+explain in detail the .NET stack tools: SQL Server,   C#,   EF Core,   Linq, Blazor
+The .NET stack includes a collection of powerful tools and technologies that work together to build modern, scalable, and secure web applications. Each tool serves a specific purpose in the development process and strengthens the overall functionality and performance of the system.
+
+SQL Server is a relational database management system used in the .NET stack to securely store and manage structured data. It supports advanced querying, indexing, and transaction control, making it suitable for enterprise-level applications where data consistency and reliability are essential. SQL Server works closely with backend components to ensure fast and efficient data access.
+
+C# is the primary programming language used in the .NET environment. It is an object-oriented language known for being secure, fast, and versatile. C# is used to write backend logic, user authentication, data processing, and application rules. Its strong typing and rich library support make it ideal for building large, maintainable systems.
+
+EF Core (Entity Framework Core) is an Object-Relational Mapping (ORM) tool that allows developers to interact with the database using C# instead of writing complex SQL queries manually. It simplifies database operations such as insert, update, delete, and retrieve, while automatically managing relationships between tables. EF Core speeds up development and reduces chances of database errors.
+
+LINQ (Language Integrated Query) is a feature in C# that allows developers to write queries directly within the programming language. It works seamlessly with EF Core, making it easy to filter, sort, group, and retrieve data from collections, databases, or APIs using readable and consistent syntax. LINQ improves efficiency and reduces the need for separate query languages.
+
+Blazor is a .NET framework used to build interactive web interfaces using C# instead of JavaScript. It allows developers to reuse backend skills on the frontend, improving productivity and consistency. Blazor supports both client-side and server-side rendering, making it flexible for different application requirements.
+
+Together, SQL Server, C#, EF Core, LINQ, and Blazor form a strong technology ecosystem that supports full-stack development within the .NET environment, enabling efficient, scalable, and modern web application development.
